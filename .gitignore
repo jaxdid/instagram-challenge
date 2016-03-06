@@ -1,0 +1,6 @@
+# Ignore all logs and temp files.
+/log/*.log
+/tmp
+
+# Ignore all secrets.
+config/secrets.yml

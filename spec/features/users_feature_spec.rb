@@ -12,11 +12,6 @@ feature "Users" do
       expect(page).to have_content "Welcome! You have signed up successfully."
       expect(page).to have_link "Sign out"
     end
-
-    # scenario "are able to sign in via Facebook" do
-    #   visit root_path
-    #   expect(page).to have_link "Sign in via Facebook"
-    # end
   end
     
   context "that are signed in" do
